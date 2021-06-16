@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EssayTank</title>
+
+    <!--------  Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!----------Font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- Font Awesome -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="landing.html">
+            <div class="d-flex">
+                <img src="./images/logo.svg" class=" alt="">
+                <p class=" logo" href="">Essay<span>Tank</span></p>
+            </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+                <a class="nav-item nav-link" href="howworks.html">HOW IT WORKS</a>
+                <a class="nav-item nav-link" href="blogs.html">BLOG</a>
+                <a class="nav-item nav-link" href="services.html">SERVICES</a>
+                <a class="nav-item nav-link" href="about.html">ABOUT US</a>
+                <a href="" class="btn btn-log">Log In</a>
+                <a href="" class="btn signup-btn mr-1">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+    <main class="services">
+        <div class="services-hero">
+            <div class="container">
+                <h5 class="first-title pt-4">Fast Essay Writing Service – Help at Any Moment</h5>
+                <p class="hero-paragraph">
+                    You are lucky, as you have found the fastest essay writing service! If you are thinking, “I don’t
+                    believe it!” we will prove it. At EssayShark.com, we love to help customers with urgent orders, and
+                    we
+                    are never afraid of challenges. Our fast cheap essay writing service gives customers the hope and
+                    confidence that they can submit papers on time no matter what deadline they should meet!
+                </p>
+            </div>
+            <div class="container">
+                <div class="row p-3">
+                    <div class="col-md-6">
+                        <img src="./images/services-hero.svg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <form action="">
+                            <div class=" form-card mb-2 mx-auto">
+                                <div class=" services-card paper-form justify-content-end card  p-3 shadow ">
+                                    <h6 class="form-title">GET STARTED HERE</h6>
+                                    <div class="w-cartegory rounded  p-1 d-flex">
+                                        <div class="col-4" type="button">
+                                            <div class=" writting-cart">
+                                                writing
+                                            </div>
+                                        </div>
+
+                                        <div class="col-4" type="button">
+                                            <div class="writting-cart mid">
+                                                Rewriting
+                                            </div>
+                                        </div>
+                                        <div class="col-4" type="button">
+                                            <div class="writting-cart">
+                                                Editing
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="mt-3">
+                                            <select class="custom-select w-100 p-2 custom" id="standard-select">
+                                                <option>Essay (any type)</option>
+                                                <option>Case Study</option>
+                                                <option>Business Plan</option>
+                                                <option>Litreture Review</option>
+                                                <option>Report</option>
+                                            </select>
+                                        </div>
+                                        <div class="d-flex container mt-3">
+                                            <div class="col-5">
+                                                <div class="">
+                                                    <select class="custom-select w-100 p-2 custom" id="standard-select">
+                                                        <option>College</option>
+                                                        <option>School</option>
+                                                        <option>university</option>
+                                                        <option>Masters</option>
+                                                        <option>Doctrate</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 p-1"></div>
+                                            <div class="col-5 ">
+                                                <div class="">
+                                                    <select class="custom-select w-100 p-2 custom" id="standard-select">
+                                                        <option>2 weeks</option>
+                                                        <option>1 day</option>
+                                                        <option>2 days</option>
+                                                        <option>3 days</option>
+                                                        <option>4 days</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-cartegory rounded p-1 mt-3 d-flex">
+                                            <div class="col-2 btn-sign" type="button">
+                                                <!-- <div class=""> -->
+                                                <i class="fa fa-minus button" aria-hidden="true"></i>
+                                                <!-- </div> -->
+                                            </div>
+                                            <!-- <div class="col-8 mid"> -->
+                                            <select class="custom-select2  w-75" id="standard-select">
+                                                <option>1 Page / 250 words</option>
+                                                <option>2 Page / 350 words</option>
+                                                <option>3 Page / 450 words</option>
+                                                <option>Litreture Review</option>
+                                                <option>Report</option>
+                                            </select>
+                                            <!-- </div> -->
+                                            <div class="col-2 btn-sign" type="button">
+                                                <!-- <div class=""> -->
+                                                <i class="fa fa-plus button" aria-hidden="true"></i>
+                                                <!-- </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="d-flex container radio-buttons p-0">
+                                            <div class="">
+                                                <input type="radio" id="single-space" name="Space" value="Single Space"
+                                                    checked>
+                                                <label for="single-space">Single Spaces</label><br>
+                                            </div>
+                                            <div>
+                                                <input type="radio" id="double-space" name="Space" value="Double Space">
+                                                <label for="double-space">Double Spaces</label><br><br>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-8"></div>
+                                            <div class="col-3 d-flex">
+                                                <p class="fire" id=fire>$11.4</p>
+                                                <span class="justify-content-end" role="img" aria-label="fire">🔥</span>
+                                            </div>
+                                        </div>
+                                        <a href="" class="btn hero-btn w-100 mt-1 ">Proceed To Order</a>
+                                    </div>
+                                </div>
+                        </form>
+                    </div>
+                    </form>
+                </div>
+                <!-- <div class="hero-seperator mb-2"></div> -->
+            </div>
+        </div>
+
+        <!-- feedback-section -->
+
+        <div class="feedback-sec feedback-service">
+            <!-- <div class="container">
+                <h5 class="first-title pt-3">Latest Client Reviews</h5>
+                <p class="second-title">The EssayTank team is made up of diverse and talented custom essay writers. <br>
+                    We strive to maintain the highest quality standards through continuous training and vetting of new
+                    writers. <br> Here is the latest feedback from our clients.
+                </p>
+            </div> -->
+            <!-- corousel -->
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="MultiCarousel" data-items="1,3,5,1" data-slide="1" id="MultiCarousel"
+                        data-interval="1000">
+                        <div class="MultiCarousel-inner">
+                            <br />
+
+                            <div class="item">
+                                <div class="block-text rel mx-auto zmin m shadow">
+                                    <div class="row">
+                                        <div class="col-md-8 review-main-card">
+                                            <div class="d-flex reviews-rate">
+                                                <div>
+                                                    <p>Customer Feedback:</p>
+                                                </div>
+                                                <div class="mx-auto">
+                                                    <span class=" pl-1">
+                                                        <span data-value="0" class="fa fa-star"></span>
+                                                        <span data-value="1" class="fa fa-star"></span>
+                                                        <span data-value="2" class="fa fa-star"></span>
+                                                        <span data-value="3" class="fa fa-star"></span>
+                                                        <span data-value="4" class="fa fa-star"></span>
+                                                        <span data-value="5" class="fa fa-star"></span>
+                                                    </span>
+                                                    <span class="mr-2">6/6</span>
+                                                </div>
+                                            </div>
+                                            <div class="reviews-content">
+                                                <p>
+                                                    Thank you so much I really appreciate how fast you are
+                                                </p>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6"></div>
+                                                <div class="col-6 review-time">
+                                                    Completed 9 hours ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div>
+                                                <h6>Neuroblastomer Cancer</h6>
+                                            </div>
+                                            <div>
+                                                <p>Essay (any type), 3</p>
+                                                <p>Pages.ID1235685</p>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <h6>Write <a href="">
+                                                                TopEssayWriter
+                                                            </a></h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="block-text rel  mx-auto zmin m shadow">
+                                    <div class="row">
+                                        <div class="col-md-8 review-main-card">
+                                            <div class="d-flex reviews-rate">
+                                                <div>
+                                                    <p>Customer Feedback:</p>
+                                                </div>
+                                                <div class="mx-auto">
+                                                    <span class=" pl-1">
+                                                        <span data-value="0" class="fa fa-star"></span>
+                                                        <span data-value="1" class="fa fa-star"></span>
+                                                        <span data-value="2" class="fa fa-star"></span>
+                                                        <span data-value="3" class="fa fa-star"></span>
+                                                        <span data-value="4" class="fa fa-star"></span>
+                                                        <span data-value="5" class="fa fa-star"></span>
+                                                    </span>
+                                                    <span class="mr-2">6/6</span>
+                                                </div>
+                                            </div>
+                                            <div class="reviews-content">
+                                                <p>
+                                                    Thank you so much I really appreciate how fast you are
+                                                </p>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6"></div>
+                                                <div class="col-6 review-time">
+                                                    Completed 9 hours ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div>
+                                                <h6>Neuroblastomer Cancer</h6>
+                                            </div>
+                                            <div>
+                                                <p>Essay (any type), 3</p>
+                                                <p>Pages.ID1235685</p>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <h6>Write <a href="">
+                                                                TopEssayWriter
+                                                            </a></h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                </div>
+                            </div>
+
+                            <br />
+                            </br>
+                        </div>
+                        <a class="btn control-button leftLst">
+                            <span class="fa fa-chevron-left"></span>
+                        </a>
+                        <a class="btn control-button rightLst">
+                            <span class="fa fa-chevron-right *3"></span>
+                        </a>
+                    </div>
+                </div> -->
+
+        </div>
+        </div>
+
+        <!-- Services Offered Features -->
+
+
+        <!-- Fetures You can count on -->
+
+        <div class="pb-md-5  features-count myfeatures">
+            <h5 class="first-title pt-4">OUR SERVICE FEATURES</h5>
+            <div class="d-md-flex shadow container card p-md-4">
+                <div class="row">
+                    <div class="col-md-6 fe-ipad">
+                        <div class="shadow-sm service-box ">
+                            <div class="row summary row   border-none p-3 mb-3">
+                                <div class="span11 bilk-ico col-10 d-flex">
+                                    <div class="col-1 content-icon no-icon-2 mr-2">
+                                        <img src="./images/bulk4.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <h5 class="content-title text-center pl-1">Experienced team of writers</h5>
+                                    </div>
+                                </div>
+                                <div class="span1 col-2">
+                                    <button class="btn btn-down collapsed" data-toggle="collapse" data-target="#serv">
+                                        <span class="show-ctrl">
+                                            <i class="fa fa-chevron-down"></i>
+                                        </span>
+                                        <span class="hide-ctrl">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="serv" class="collapse">
+                                    <div class="about-seperator mb-2"></div>
+                                    <p class="normal-p p-2">We have a team of well-vetted and experienced writers.
+                                        Our
+                                        in-house
+                                        writers can deal with papers in all academic fields and all academic levels.
+                                        <a href="services-details.html">Learn More...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shadow-sm service-box ">
+                            <div class="row summary row   border-none p-3 mb-3">
+                                <div class="span11 col-10 d-flex">
+                                    <div class="col-1 content-icon no-icon-2 mr-2">
+                                        <img src="./images/bulk2.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <h5 class="content-title text-center pl-1">Unlimited revisions</h5>
+                                    </div>
+                                </div>
+                                <div class="span1 col-2">
+                                    <button class="btn btn-down collapsed" data-toggle="collapse" data-target="#serv1">
+                                        <span class="show-ctrl">
+                                            <i class="fa fa-chevron-down"></i>
+                                        </span>
+                                        <span class="hide-ctrl">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="serv1" class="collapse">
+                                    <div class="about-seperator mb-2 p-1"></div>
+                                    Our quality assurance team does not rest until our
+                                    clients are
+                                    happy
+                                    with our work. Clients can ask for multiple revisions on orders <a href="">Learn
+                                        More...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="shadow-sm service-box ">
+                            <div class="row summary row   border-none p-3 mb-3">
+                                <div class="span11 col-10 d-flex">
+                                    <div class="col-1 content-icon no-icon-2 mr-2">
+                                        <img src="./images/bulk9.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <h5 class="content-title text-center pl-1">Unbeatable prices</h5>
+                                    </div>
+                                </div>
+                                <div class="span1 col-2">
+                                    <button class="btn btn-down collapsed" data-toggle="collapse" data-target="#serv2">
+                                        <span class="show-ctrl">
+                                            <i class="fa fa-chevron-down"></i>
+                                        </span>
+                                        <span class="hide-ctrl">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="serv2" class="collapse">
+                                    <div class="about-seperator mb-2"></div>
+                                    <p class="normal-p p-2">Our prices are extremely competitive. Our most frequent
+                                        users
+                                        get to
+                                        enjoy loyalty promo codes every month. <a href="">Learn More...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 fe-ipad">
+
+                        <div class="shadow-sm service-box ">
+                            <div class="row summary row   border-none p-3 mb-3">
+                                <div class="span11 col-10 d-flex">
+                                    <div class="col-1 content-icon no-icon-2 mr-2">
+                                        <img src="./images/bulk3.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <h5 class="content-title text-center pl-1">24/7 Support team availability</h5>
+                                    </div>
+                                </div>
+                                <div class="span1 col-2">
+                                    <button class="btn btn-down collapsed" data-toggle="collapse" data-target="#serv3">
+                                        <span class="show-ctrl">
+                                            <i class="fa fa-chevron-down"></i>
+                                        </span>
+                                        <span class="hide-ctrl">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="serv3" class="collapse">
+                                    <div class="about-seperator mb-2"></div>
+                                    <p class="normal-p p-2">We always have a support team round the clock to serve
+                                        you and
+                                        answer any questions you might have about our services.<a href="">Learn
+                                            more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shadow-sm service-box ">
+                            <div class="row summary row   border-none p-3 mb-3">
+                                <div class="span11 col-10 d-flex">
+                                    <div class="col-1 content-icon no-icon-2 mr-2">
+                                        <img src="./images/bulk5.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <h5 class="content-title text-center pl-1">Utmost confidentiality</h5>
+                                    </div>
+                                </div>
+                                <div class="span1 col-2">
+                                    <button class="btn btn-down collapsed" data-toggle="collapse" data-target="#serv4">
+                                        <span class="show-ctrl">
+                                            <i class="fa fa-chevron-down"></i>
+                                        </span>
+                                        <span class="hide-ctrl">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="serv4" class="collapse">
+                                    <div class="about-seperator mb-2"></div>
+                                    <p class="normal-p p-2">We do not share client information or papers with third
+                                        parties.
+                                        We
+                                        only ask for your email to help serve you better. <a href="">Learn
+                                            More...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shadow-sm service-box ">
+                            <div class="row summary row   border-none p-3 mb-3">
+                                <div class="span11 col-10 d-flex">
+                                    <div class="col-1 content-icon no-icon-2 mr-2">
+                                        <img src="./images/bulky5.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <h5 class="content-title text-center pl-1">Safe payments</h5>
+                                    </div>
+                                </div>
+                                <div class="span1 col-2">
+                                    <button class="btn btn-down collapsed" data-toggle="collapse" data-target="#serv5">
+                                        <span class="show-ctrl">
+                                            <i class="fa fa-chevron-down"></i>
+                                        </span>
+                                        <span class="hide-ctrl">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="serv5" class="collapse">
+                                    <div class="about-seperator mb-2"></div>
+                                    <p class="normal-p p-2">We use safe and reputable payment processing providers.
+                                        Our
+                                        customers are assured of maximum safety of their data<a href="">Learn
+                                            More...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="bulky-content serv-bulcky">
+            <div class="container pt-md-5">
+                <div class="row">
+                    <div class="col-md-6 p-3">
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulk1.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">Choose a writer to work with</h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-4">
+                            <p class="">Our essay writing company has been active since 2020. we have helped over
+                                thousands
+                                of students reach their full academic potential. Each essay writer passed our frame
+                                selection and fit the qualification requirements of EssayTank</p>
+                            <p>
+                                We offer papers of any kind and academic level: high-school, college, and
+                                university.
+                                Including case study, research paper, assignments,
+                                dissertation, term paper, M/As, and doctorates. Regardless of the subject, we are
+                                ready
+                                to
+                                deliver high-quality custom writing orders to
+                                consumers upon their first write my essay for me request. </p>
+                            <p>
+                                Every paper is written with the customer’s needs in mind and plagiarism-free under
+                                strict
+                                quality assurance protocol to bring effective results to consumers. Writer managers
+                                at
+                                our
+                                essay writing service work around the clock to make sure each essay paper is unique
+                                and
+                                high-quality.
+                            </p>
+                        </div>
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulk2.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">What Do I Gain From Working Here ?</h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-4">
+                            <p>
+                                We help students who are struggling with their academic ordeals by allowing students
+                                to
+                                get
+                                essay help from an expert essay writer. We never fail to meet deadlines. When you
+                                ask
+                                our
+                                writer to write my paper, the assignment can be done within 6 hours or 2 weeks. The
+                                due
+                                date
+                                of the order is truly up to you. That is perfect if your in urgent need of help
+                                because
+                                your
+                                essay is due tomorrow, or you do not know how to complete your academic assignment
+                                from
+                                your
+                                professor.
+                            </p>
+                            <p>
+                                Consumers have access to a large catalog that includes a list of hundreds of essay
+                                writers
+                                who specialize in every field. They have several years of experience in the industry
+                                and
+                                are
+                                holders of PhDs. Our company is not the cheapest on the market, but one of the most
+                                reliable
+                                and legitimate paper services with an established quality assurance team who manage
+                                our
+                                essayists.
+                            </p>
+                        </div>
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulk3.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">Tight Deadline?</h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-3">
+                            <p>
+                                Many students don’t have the time to work on their academic papers due to balancing
+                                with
+                                other responsibilities, for example, part-time work.
+                            </p>
+                            <ul>
+                                <li>
+                                    Here at EssayTank, we offer a service guarantee when you buy an essay. This
+                                    means
+                                    that
+                                    our clients can have college papers done in moments or 2 weeks, regardless of
+                                    the
+                                    number
+                                    of pages.
+                                </li>
+                                <li>
+                                    EssayTank has a qualified writing team, providing consumers with ultimate
+                                    experiences.
+                                    As
+                                    a result, customer satisfaction is at 93.66%, according to reviews.
+                                </li>
+                                <li>
+                                    We have learned to provide the ultimate consumer experience to students from the
+                                    USA,
+                                    Canada, Australia, the UK, and the UAE.
+                                </li>
+                                <li>
+                                    Papers start from $11 per page.
+                                </li>
+                                <li>
+                                    All papers are unique because our writers are required to follow our strict
+                                    quality
+                                    assurance protocol, which includes anti-plagiarism.
+                                </li>
+                                <li>
+                                    Every academic scholar has several years of experience in the essay writing
+                                    industry, as
+                                    well as being fully qualified.
+                                </li>
+                                <li>24⁄7 customer support to those who have any questions or concerns regarding the
+                                    writing
+                                    service.</li>
+                            </ul>
+                            <p>
+                                Deadline is an ordeal every student faces at college or university. If you have less
+                                than 12
+                                hours to write an academic paper, the answer is our urgent essay service for those
+                                who
+                                fit
+                                everything above. We are your golden ticket to a successful academic career.
+                            </p>
+                        </div>
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulk6.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">EssayTank Can Guarantee You</h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-4">
+                            <p>
+                                Any academic essays due tomorrow? Have a last-minute paper? Don't worry! With the
+                                client’s
+                                needs in mind, each essay is written by real professionals and penned on time.
+                            </p>
+                            <ul>
+                                <li>
+                                    We employ real professionals who hold PhDs. They have several years of
+                                    experience in
+                                    the
+                                    industry.
+                                </li>
+                                <li>
+                                    Writer managers supervise the entire ordering process to make sure everything is
+                                    done
+                                    correctly and with the client’s requirements followed accurately.
+                                </li>
+                            </ul>
+                            <p>
+                                Are you unhappy with your completed paper order? Do not worry. Unsatisfied clients
+                                are
+                                entitled to free reviews and rewrites up to 30 days. Every complaint will be
+                                considered
+                                and
+                                acted upon. We only want what’s best for our customer's well-being. Satisfaction is
+                                taken
+                                very seriously with our paper writing service.
+                            </p>
+                            <p>
+                                The best essay service looks forward to long-term cooperation with every client who
+                                uses
+                                our
+                                company for academic assistance. We wish all of our clients to use EssayTank with a
+                                smile on
+                                their faces. You can be confident that high-quality papers were written on-time at
+                                the
+                                customer’s convenience.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulk4.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">Select The Appropriate Paper Writer</h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-4">
+                            <p>
+                                The goal of our college essay writing service is to create both an easy-to-use and
+                                professional catalog of paper writers for our consumers. We want every customer to
+                                be
+                                able
+                                to hire an essay writer easily, without any hassle or troubles. Our application
+                                gives
+                                the
+                                ability to access an entire catalog that contains hundreds of writers who write
+                                within
+                                multiple fields, and we have writers for every specialty. This allows every client
+                                to
+                                choose
+                                the most appropriate author for their assignment.
+                            </p>
+                            <p>
+                                All of our academic scholars have their profiles. Each profile shows the success
+                                rate, a
+                                star-rating, and subject specification. Apart from that, we feel it’s important to
+                                know
+                                your
+                                chosen essayist inside out. Thus, they also contain a short biography from the
+                                professional
+                                writer to enable customers to see what kind of person he or she is. And a list of
+                                reviews
+                                for the author left by previous clients to give you an insight into customer
+                                satisfaction.
+                            </p>
+                        </div>
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulky5.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">User-Friendly Service</h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-4">
+                            <p>
+                                Our website is super convenient and easy to use! We work to make sure the experience
+                                of
+                                our
+                                clients is always positive. EssayTank is easy-to-use - with access to customer
+                                support
+                                who
+                                are here to answer any questions or concerns you may have. If you’re in any doubt,
+                                keep
+                                in
+                                mind that our service is legal and legitimate.
+                            </p>
+                            <p>
+                                For those who are seeking reviews of our service, we have EssayTank reviews page
+                                in-app.
+                                Take
+                                a stroll around the reviews our clients have left us regarding the work and
+                                experience
+                                they
+                                have had. We truly value and take on-board customer feedback. It helps us learn and
+                                grow,
+                                which widely affects future orders. If you have any concerns, take a look at our
+                                reviews
+                                page - to find out what clients have said about this paper writing service.
+                            </p>
+                        </div>
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulk3.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">What If I Am Unsatisfied With My Paper?</h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-3">
+                            <p>
+                                If you are unsatisfied with your essay, do not worry. In that case, our policy
+                                states
+                                that
+                                that customer is entitled to an unlimited amount of free revisions and rewrites
+                                within
+                                the
+                                first 30 days are the completion of the paper. The paper will also be reviewed by
+                                another
+                                writer with a higher success rate to make sure it is of high quality. We also have a
+                                quality
+                                assurance team who check the paper for any plagiarism and errors.
+                            </p>
+                            <p>
+                                If you’re completely unsatisfied with the paper and do not want us to do any more
+                                work
+                                on
+                                it, we offer a money-back guarantee, which is also within the first 30 days of the
+                                completion of the order. Meaning, unsatisfied customers also do not need to worry
+                                when
+                                it
+                                comes to a poor quality paper. Though this rarely happens with our service.
+                            </p>
+                        </div>
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulk7.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">Essay Writer Service</h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-4">
+                            <p>
+                                To make sure our service can address every demand imaginable, we employ writers that
+                                possess
+                                PhDs across hundreds of fields. They are all familiar with the academic writing
+                                process,
+                                thanks to their superior educational background.
+                            </p>
+                            <p>
+                                Each client can choose an appropriate writer to buy an essay from. They can do this
+                                by
+                                looking at factors such as success rates and customer reviews. Every writer we
+                                employ is
+                                a
+                                native speaker of English and comes from either the USA, Australia, UK, Canada,
+                                Ireland,
+                                or
+                                New Zealand.
+                            </p>
+                            <ul>
+                                <li>
+                                    The ability to find credible sources
+                                </li>
+                                <li>
+                                    The ability to approach tasks effectively and work punctually
+                                </li>
+                                <li>
+                                    Strong communication skills: takes all comments into account
+                                </li>
+                                <li>
+                                    The ability to complete orders within the tightest deadlines (6 hours)
+                                </li>
+                                <li>
+                                    The ability to write any assignment type in any field.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row pb-md-1">
+                            <div class="col-1 content-icon">
+                                <img src="./images/bulk8.svg" alt="">
+                            </div>
+                            <div class="col-11">
+                                <h6 class="content-title">Hire A Professional Essay Writer & Do More Important
+                                    Things!
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="mb-md-3">
+                            <p>
+                                Are you 100% snowed-under in your student life? Are you struggling to balance your
+                                work
+                                with
+                                your academics? If you are busy with their other responsibilities, you have come to
+                                the
+                                right place. With both a reliable and easy-to-use essay writer service, students
+                                have
+                                the
+                                rare opportunity to focus on their other work or non-academic-related duties, which
+                                they
+                                are
+                                also required to carry out.
+                            </p>
+                            <p>
+                                When students collaborate with our academic scholars, they do not need to worry
+                                about
+                                the
+                                final result of using our service. All of our papers are plagiarism-free and written
+                                with
+                                the customer’s needs and the requirements which are assigned by their professors in
+                                mind. It
+                                also goes to show that when you work with us, no one will ever know. Our writers
+                                match
+                                your
+                                writing style and write uniquely.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- services steps -->
+        <div class="services-steps mr-4">
+            <div class="container">
+                <h5 class="first-title pt-3">Steps to Get Our Fast Essay Help</h5>
+                <p class="second-title">
+                    Here are some tips to guide you on how our system works. Simple and cleare proccess
+                </p>
+                <div class="steps-container p-3 d-md-flex">
+                    <div class="whole-step">
+                        <div class="position-relative">
+                            <div class="step-line "></div>
+                            <div class="steps position-absolute">
+                                <p>1</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">Place Your order</p>
+                    </div>
+                    <div class="whole-step">
+                        <div class="position-relative">
+                            <div class="step-line "></div>
+                            <div class="steps position-absolute">
+                                <p>2</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">Make Payment</p>
+                    </div>
+                    <div class="whole-step">
+                        <div class="position-relative">
+                            <div class="step-line "></div>
+                            <div class="steps position-absolute">
+                                <p>3</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">Get Your order written</p>
+                    </div>
+                    <div class="whole-step">
+                        <div class="position-relative">
+                            <div class="step-line "></div>
+                            <div class="steps position-absolute">
+                                <p>4</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">Review your essay</p>
+                    </div>
+                    <div>
+                        <a class="hero-btn btn w-100 mt-3" href="">
+                            <div>Continue</div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer Content -->
+    <footer class="pt-md-4 pt-sm-2">
+        <div class="container pb-md-4">
+            <div class="row">
+                <div class="col-md-3 font-white">
+                    <p class="footer-header pb-1">COMPANY</p>
+                    <a href="">
+                        <p>About Us</p>
+                    </a>
+                    <a href="">
+                        <p>Contact Us</p>
+                    </a>
+                    <a href="">
+                        <p>Users Reviews</p>
+                    </a>
+                    <a href="">
+                        <p>Become A freelance Writer</p>
+                    </a>
+                    <a href="">
+                        <p>FAQ for Customers</p>
+                    </a>
+                </div>
+                <div class="col-md-3 font-white">
+                    <p class="footer-header pb-1">COMPANY</p>
+                    <a href="">
+                        <p>About Us</p>
+                    </a>
+                    <a href="">
+                        <p>Contact Us</p>
+                    </a>
+                    <a href="">
+                        <p>Users Reviews</p>
+                    </a>
+                    <a href="">
+                        <p>Become A freelance Writer</p>
+                    </a>
+                    <a href="">
+                        <p>FAQ for Customers</p>
+                    </a>
+                </div>
+                <div class="col-md-3 font-green">
+                    <p class="footer-header pb-1">COMPANY</p>
+                    <a href="">
+                        <p>About Us</p>
+                    </a>
+                    <a href="">
+                        <p>Contact Us</p>
+                    </a>
+                    <a href="">
+                        <p>Users Reviews</p>
+                    </a>
+                    <a href="">
+                        <p>Become A freelance Writer</p>
+                    </a>
+                    <a href="">
+                        <p>FAQ for Customers</p>
+                    </a>
+                </div>
+                <div class="col-md-3 font-green">
+                    <p class="footer-header pb-1">COMPANY</p>
+                    <a href="">
+                        <p>About Us</p>
+                    </a>
+                    <a href="">
+                        <p>Contact Us</p>
+                    </a>
+                    <a href="">
+                        <p>Users Reviews</p>
+                    </a>
+                    <a href="">
+                        <p>Become A freelance Writer</p>
+                    </a>
+                    <a href="">
+                        <p>FAQ for Customers</p>
+                    </a>
+                </div>
+            </div>
+            <div class=" d-md-flex pb-md-3 footer-ads">
+
+                <div class="pay shadow-lg round-5 mr-1">
+                    <p>payment by</p>
+                    <div class="pay-img">
+                        <img src="./images/paypal.png" alt="">
+                    </div>
+                </div>
+                <div class="follow shadow-lg round-5 ml-1">
+                    <p>Follow Us</p>
+                    <div class="pay-img d-flex">
+                        <a href="">
+                            <div class="facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <div class="twitter">
+                            <a href="">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="insta">
+                            <a href="">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container footer-seo pb-md-3  pb-sm-2">
+                <p class="">
+                    <a href=""> Write My Paper for Cheap</a> | <a href=""> Fast Essay Writting Service</a> | <a href="">
+                        Pay For Term Paper</a> | <a href=""> How To Write A Good Essay</a> | <a href="">Buy
+                        A cheap Essay</a> | <a href=""> Free Eassay</a> | <a href="">Dissertation Assistance</a> |
+                    <a href="">Dissertation Writting Services</a> | <a href=""> Cheap Custom Essay</a> | <a href="">
+                        EssayTank Legit</a> | <a href=""> about us</a> | <a href=""> about us</a> | <a href="">
+                        about us</a> | <a href=""> about us</a> | <a href=""> about us</a> | <a href=""> about
+                        us</a> | <a href=""> about us</a> | <a href=""> Write My Paper for Cheap</a> | <a href="">
+                        Fast Essay Writting Service</a> | <a href=""> Pay For Term Paper</a> | <a href=""> How To
+                        Write A Good Essay</a> | <a href="">Buy A cheap Essay</a> | <a href=""> Free Eassay</a> | <a
+                        href=""> about us</a> | <a href=""> about us</a> | <a href=""> about us</a><a href=""> about
+                        us</a> | <a href=""> about us</a> | <a href=""> about us</a> | <a href=""> about us</a> | <a
+                        href=""> about us</a> | <a href=""> about us</a> | <a href=""> about us</a> | <a href="">
+                        about us</a> |
+
+                </p>
+            </div>
+            <div class="footer-copyright">
+                <p class="copy">&copy;2021 — 2021, EssayTank.com.</p>
+                <p>All rights reserved courtesy of 2021</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js "
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU "
+        crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js "
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj "
+        crossorigin="anonymous "></script>
+</body>
+
+</html>
